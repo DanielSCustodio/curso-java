@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		
-		int x,z;
+		/*int x,z;
 		double y, resultado;	
 		x = 5;
 		z = 2;
@@ -24,7 +24,7 @@ public class Main {
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(resultado); //casting
-		/*int x = 1000000000;
+		int x = 1000000000;
 		double y = 10.35784;
 		String nome = "Maria";
 		int idade = 31;
