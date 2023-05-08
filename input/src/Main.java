@@ -7,35 +7,22 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		/*String x;
-		x = sc.next();
-		System.out.println("Você digitou: "+x);*/
-		
-		/*int x;
-		x = sc.nextInt();
-		 System.out.println("Você digitou: "+x);*/
-		
-		/*double x;
-		x = sc.nextDouble();
-		System.out.printf("Você digitou: %.2f%n",x);*/
-		
-		/*char x;
-		x = sc.next().charAt(0);
-		System.out.println("Primeiro caracter: "+ x);*/
-		
 		String x;
-		int y;
-		double z;
+		int z;
+		double y;
+		char a;
 		
 		x = sc.next();
-		y = sc.nextInt();
-		z = sc.nextDouble();
+		z = sc.nextInt();
+		y = sc.nextDouble();
+		a = sc.next().charAt(z);
 		
-		System.out.println("Dados digitados");
-		System.out.println(x);
-		System.out.println(y);
+		System.out.println("Dados digitados:");
+		System.out.println(x+z+y+a);
 		System.out.println(z);
-		
+		System.out.println(y);
+		System.out.println(a);
+
 		sc.close();
 	}
 
